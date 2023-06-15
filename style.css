@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+p{
+    color: rgb(251, 255, 0);
+}
+body{
+    background: #979595;
+}
+.header{
+    padding: 50px 0;
+}
+.bangladesh{
+    width: 100%;
+    height: 350px;
+    background: green;
+    position: relative;
+}
+.bangladesh_red{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.chine{
+    width: 100%;
+    height: 350px;
+    background: #EA1C24;
+    position: relative;
+}
+.chine_star{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 50%;
+}
+.argentina{
+    width: 100%;
+    height: 350px;
+    background: #EA1C24;
+    position: relative;
+}
+.argentina_layer_one,
+.argentina_layer_three{
+    width: 100%;
+    height: 30%;
+    background: #178FCD;
+}
+.argentina_layer_two{
+    width: 100%;
+    height: 40%;
+    background: #F4F6F8;
+}
+.argentina_img{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+   
+}
+.argentina_img img{
+    width: 50%;
+}
+.brazil{
+    width: 100%;
+    height: 350px;
+    background: #2FA448;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brazil_layer{
+    width: 220px;
+    height: 210px;
+    background: #FAD63A;
+    transform:rotate(45deg);
+}
+.brazil-icon{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.canada{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.canada_one,
+.canada_three{
+    width: 27%;
+    background: #D61922;
+}
+.canada_two{
+    width: 46%;
+    background: #D9D9D9;
+}
+.canada_icon{
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.france{
+    width: 100%;
+    height: 350px;
+    background: red;
+    display: flex;
+}
+.france_one{
+    width: 33.33%;
+    height: auto;
+    background: #2164AF;
+}
+.france_two{
+    width: 33.33%;
+    height: auto;
+    background: #F4F6F8;
+}
+.france_three{
+    width: 33.33%;
+    height: auto;
+    background: #EC1B24;
+}
+
+.germani{
+    width: 100%;
+    height: 350px;
+    background: red;
+}
+.germani_one{
+    height: 33.33%;
+    width: 100%;
+    background: #333333;
+}
+.germani_two{
+    height: 33.33%;
+    width: 100%;
+    background: #D81F25;
+}
+.germani_three{
+    height: 33.33%;
+    width: 100%;
+    background: #FAD63A;
+}
+.india{
+    width: 100%;
+    height: 350px;
+    background: red;
+    position: relative;
+}
+.india_one{
+    height: 33.33%;
+    width: 100%;
+    background: #F15A26;
+}
+.india_two{
+    height: 33.33%;
+    width: 100%;
+    background: #F4F6F8;
+}
+.india_three{
+    height: 33.33%;
+    width: 100%;
+    background: #3CB448;
+}
+.india_img{
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.indonesia{
+    width: 100%;
+    height: 350px;
+    background: red;
+}
+.indonesia_one{
+    height: 50%;
+    width: 100%;
+    background: #EA1C24;
+}
+.indonesia_two{
+    height: 50%;
+    width: 100%;
+    background: #F2F7F8;
+}
+.italy{
+    width: 100%;
+    height: 350px;
+    background: red;
+    display: flex;
+}
+.italy_one{
+    width: 33.33%;
+    height: 100%;
+    background: #3CB449;
+}
+.italy_two{
+    width: 33.33%;
+    height: 100%;
+    background: #F4F6F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.italy_two .mexico{
+    width: 80%;
+}
+.italy_three{
+    width: 33.33%;
+    height: 100%;
+    background: #EA1C24;
+}
+.japan{
+    width: 100%;
+    height: 350px;
+    background: #F4F6F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.japan_one{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: red;
+}
+
+.russia{
+    width: 100%;
+    height: 350px;
+    background: red;
+}
+.russia_one{
+    height: 33.33%;
+    width: 100%;
+    background: #F4F6F8;
+}
+.russia_two{
+    height: 33.33%;
+    width: 100%;
+    background: #178FCD;
+}
+.russia_three{
+    height: 33.33%;
+    width: 100%;
+    background: #E91D24;
+}
+.south{
+    width: 100%;
+    height: 350px;
+    background: #F4F6F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.south_one{
+    width: 60%;
+}
+.turkey{
+    width: 100%;
+    height: 350px;
+    background: #EA1C24;
+    position: relative;
+}
+.turkey_one{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.uropion{
+    width: 100%;
+    height: 350px;
+    background: #2164AF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uropion_one{
+    width: 40%;
+}
+
+.united{
+    width: 100%;
+    height: 325px;
+    background: #EA1C24;
+    position: relative;
+}
+.united_one{
+    width: 100%;
+    height: 25px;
+    background: #D61922;
+}
+.united_two{
+    width: 100%;
+    height: 25px;
+    background: #F2F7F8;
+}
+.united_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+}
+.soudi{
+    width: 100%;
+    height: 325px;
+    background: #3CB449;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.soudi_one{
+    width: 100%;
+}
+
+.pakistan{
+    width: 100%;
+    height: 325px;
+    background: #3CB449;
+    display: flex;
+}
+.pakistan_one{
+    width: 20%;
+    height: 100%;
+    background: #F4F6F8;
+}
+.pakistan_two{
+    width: 80%;
+    height: 100%;
+    background: #2B4829;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pakistan_two_img{
+    width: 70%;
+    transform: rotate(-45deg);
+}
+.nigeria{
+    width: 100%;
+    height: 325px;
+    background: #3CB449;
+    display: flex;
+}
+.nigeria_one{
+    width: 33.33%;
+    background: #488652;
+}
+.nigeria_two{
+    width: 33.33%;
+    background: #FDFEFE;
+}
+.nigeria_three{
+    width: 33.33%;
+    background: #488652;
+}
